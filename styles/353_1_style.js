@@ -6,7 +6,7 @@ function categories_353_1(feature, value, size, resolution, labelText,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'All\'s day cafe&Restaurant':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(208,222,114,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -15,7 +15,7 @@ function categories_353_1(feature, value, size, resolution, labelText,
                     break;
 case 'Hello mango cafe':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(219,100,136,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -24,7 +24,7 @@ case 'Hello mango cafe':
                     break;
 case 'Jack Sparrow\'s Restaurant&coffee':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(64,64,239,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -33,7 +33,7 @@ case 'Jack Sparrow\'s Restaurant&coffee':
                     break;
 case 'lnfinity Beach':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(155,72,219,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -42,7 +42,7 @@ case 'lnfinity Beach':
                     break;
 case 'NYFLKET':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(104,228,174,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -51,7 +51,7 @@ case 'NYFLKET':
                     break;
 case 'กาแฟ เกาะจัน':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(207,50,50,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -60,7 +60,7 @@ case 'กาแฟ เกาะจัน':
                     break;
 case 'ครัวมะปรางเปรี้ยว':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(132,95,225,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -69,7 +69,7 @@ case 'ครัวมะปรางเปรี้ยว':
                     break;
 case 'ชุลมุน coffee':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(209,29,185,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -78,7 +78,7 @@ case 'ชุลมุน coffee':
                     break;
 case 'ทุ่งยาวคาเฟ่':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(52,228,52,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -87,7 +87,7 @@ case 'ทุ่งยาวคาเฟ่':
                     break;
 case 'บ้านสวนอินทรีย์อยู่อย่างพอเพียง':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(227,154,58,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -96,7 +96,7 @@ case 'บ้านสวนอินทรีย์อยู่อย่าง�
                     break;
 case 'ป้ารุณ อาหารและเครื่องดื่ม':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(92,201,220,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -105,7 +105,7 @@ case 'ป้ารุณ อาหารและเครื่องดื่�
                     break;
 case 'เมมโมรี่ คาเฟ่แคมป์':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(50,220,98,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -114,7 +114,7 @@ case 'เมมโมรี่ คาเฟ่แคมป์':
                     break;
 case 'ร้านกาแฟอินทนิล':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(232,111,64,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -123,7 +123,7 @@ case 'ร้านกาแฟอินทนิล':
                     break;
 case 'ร้านอาหารกบซีฟู้ด':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(138,219,106,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -132,7 +132,7 @@ case 'ร้านอาหารกบซีฟู้ด':
                     break;
 case 'ลองดูคอฟฟี่':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(231,206,62,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -141,7 +141,7 @@ case 'ลองดูคอฟฟี่':
                     break;
 case 'วิสาหกิจชุมชนท่องเที่ยวเชิงเกษตรและโฮมสเตย์ โดย ชุมชนบ้านห้วยยาง':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(130,190,236,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -150,7 +150,7 @@ case 'วิสาหกิจชุมชนท่องเที่ยวเ�
                     break;
 case 'วิสาหกิจชุมชนแปลงใหญ่สหกรณ์โคนมไทย-เดนมาร์ค บ้านเนินดินแดง จำกัด':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(148,211,65,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -159,7 +159,7 @@ case 'วิสาหกิจชุมชนแปลงใหญ่สหก�
                     break;
 case 'สองพี่น้อง Rose Garden1 coffee&DrinkBreakfast':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(25,237,209,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -168,7 +168,7 @@ case 'สองพี่น้อง Rose Garden1 coffee&DrinkBreakfast':
                     break;
 case 'หาดวนกร':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(226,42,149,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -177,7 +177,7 @@ case 'หาดวนกร':
                     break;
 case 'อุทยานแห่งชาติน้ำตกห้วยยาง':
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(70,111,215,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -186,7 +186,7 @@ case 'อุทยานแห่งชาติน้ำตกห้วยย�
                     break;
 default:
                     return [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 6.399999999999999 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 6.4 + size, points: 4,
             stroke: new ol.style.Stroke({color: 'rgba(128,17,25,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(189,116,202,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
